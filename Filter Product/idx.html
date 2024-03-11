@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="sty.css" />
+  </head>
+  <body>
+    <div class="filter-container">
+      <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search" />
+        <button id="search-btn">Search</button>
+      </div>
+      <div class="category-container">
+        <div class="category-btn">All Products</div>
+        <div class="category-btn">Electronics</div>
+        <div class="category-btn">Clothing</div>
+        <div class="category-btn">Home & Garden</div>
+      </div>
+    </div>
+
+    <div id="product-list">
+      <div class="product-item" data-category="electronics">
+        <h3>SmartPhone</h3>
+        <p>Description of smartphone product.</p>
+      </div>
+      <div class="product-item" data-category="clothing">
+        <h3>T-shirt</h3>
+        <p>Description of Tshirts</p>
+      </div>
+      <div class="product-item" data-category="electronics">
+        <h3>Coffe Maker</h3>
+        <p>Description of Coffe maker product.</p>
+      </div>
+      <div class="product-item" data-category="electronics">
+        <h3>Laptop</h3>
+        <p>Description of Laptop product.</p>
+      </div>
+      <div class="product-item" data-category="electronics">
+        <h3>Hoodie</h3>
+        <p>Description of Hoodie product.</p>
+      </div>
+    </div>
+
+    <script src="scr.js"></script>
+  </body>
+</html>
